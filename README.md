@@ -36,3 +36,9 @@ npm run format
 
 # 5. 检查代码规范
 npm run lint
+
+# 6.调试
+使用 .vscode/launch.json 配置进行调试
+或
+使用 浏览器开发者工具
+```

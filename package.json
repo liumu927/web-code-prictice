@@ -10,7 +10,6 @@
     "build": "tsc --project tsconfig.json",
     "build:clean": "npm run clean && npm run build",
     "dev": "concurrently -n \"Server,Build,TS\" -c \"blue,yellow,green\" \"npm run start\" \"npm run build\" \"npm run watch\"",
-    "debug": "npm run build && npm run watch",
     "format": "prettier --write .",
     "lint": "eslint . --ext .ts"
   },

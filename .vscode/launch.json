@@ -2,7 +2,7 @@
   "version": "0.2.0",
   "configurations": [
     {
-      "name": "Debugger：launch Chrome",
+      "name": "Debugger：launch",
       "type": "chrome",
       "request": "launch",
       "url": "http://127.0.0.1:8080",
