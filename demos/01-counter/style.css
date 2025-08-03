@@ -1,0 +1,22 @@
+.demo-container {
+  max-width: 500px;
+  margin: 40px auto;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+
+button {
+  margin: 0 5px;
+  padding: 8px 16px;
+  font-size: 1rem;
+  cursor: pointer;
+  background: #3498db;
+  color: white;
+  border: none;
+  border-radius: 4px;
+}
+
+button:hover {
+  background: #2980b9;
+}
