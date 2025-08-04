@@ -25,17 +25,21 @@ web-code-practice/
 # 1. 安装依赖
 pnpm install
 
-# 2. 启动开发服务器（自动刷新）
-npm start
+# 2.启动
+pnpm dev
 
-# 3. 监听 TypeScript 编译
-npm run watch
+# 3.分步启动
+## 3-1. 启动开发服务器（自动刷新）
+pnpm start
+
+## 3-2. 监听 TypeScript 编译
+pnpm watch
 
 # 4. 格式化代码
-npm run format
+pnpm format
 
 # 5. 检查代码规范
-npm run lint
+pnpm lint
 
 # 6.调试
 使用 .vscode/launch.json 配置进行调试
