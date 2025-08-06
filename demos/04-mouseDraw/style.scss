@@ -1,0 +1,16 @@
+.demo-container {
+  text-align: center;
+
+  .draw-control {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+  }
+
+  .draw-area {
+    border: 1px dashed black;
+    background-color: rgba(241, 239, 239, 0.308);
+    margin-top: 20px;
+  }
+}
